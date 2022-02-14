@@ -1,26 +1,71 @@
+/*
+
+某种白 #eef0f3
+某种蓝 #418ab4
+
+*/
+
 body {
     margin: 60px auto;
     width: 70%;
+	background-color: #eef0f3;
 }
+
+/* 导航区与页尾 */
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
+
+nav ul li a {
+	padding-left:	5px;
+	padding-right:	5px;
+	padding-top:	5px;
+	padding-bottom:	5px;
+	border-radius:	10px;
+	color: #666666;
+	transition: all 0.3s;
+	box-shadow: 0 0 9px 9px #eef0f3;
+}
+
+nav ul li a:hover {
+	color: #101420;
+	background-color: #ffffff;
+	box-shadow: 0 0 3px 3px #ffffff;
+}
+
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+	font-size: 18px;
 }
+
+nav ul h1 {
+	color: #418ab4;
+	font-size: 38px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+footer ul p {
+	margin-top: 0px;
+	font-style: italic;
+	color: #868686;
+	font-size: 18px;
+}
+
+/* 通用区 */
 a {
     text-decoration: none;
     color: #999;
 }
 a:hover {
-    text-decoration: underline;
+    /*text-decoration: underline;*/
 }
 h1 {
-    font-size: 3em;
+    font-size: 32px;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
@@ -41,4 +86,3 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-
