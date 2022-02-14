@@ -4,4 +4,16 @@ title: First Post
 date: 2022-02-14
 ---
 
-Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
+Test.
+# h1
+## h2
+### h4
+#### h4
+##### h5
+###### h6
+
+$$
+\sum_{i=0}^{100}i = 5050
+$$
+
+
