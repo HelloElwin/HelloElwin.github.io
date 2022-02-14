@@ -3,10 +3,16 @@
 某种蓝 #418ab4
 */
 
+@font-face {
+	font-family: menlo;
+	src: '/fonts/menlo.ttc'
+}
+
 body {
+	font-size: 18px;
+    font-family: 'San Francisco', 'Helvetica', 'Arial', 'Sans-Serif';
     margin: 60px auto;
-    width: 70%;
-	background-color: #eef0f3;
+    width: 80%;
 }
 
 /* 导航区与页尾 */
@@ -15,8 +21,8 @@ footer {
     border-top: 1px solid #e0e0e0;
 	margin-top: 36px;
 }
+
 nav {
-    border-bottom: 1px solid #e0e0e0;
 	margin-bottom: 36px;
 }
 
@@ -34,14 +40,14 @@ nav ul li a {
 	padding-bottom:	5px;
 	border-radius:	10px;
 	color: #666666;
-	transition: all 0.1s;
-	/* box-shadow: 0 0 9px 9px #eef0f3; */
+	transition: all 0.2s;
+	box-shadow: 0 0 9px 9px #ffffff;
 }
 
 nav ul li a:hover {
-	color: #101420;
-	background-color: #ffffff;
-	box-shadow: 0 0 3px 3px #ffffff;
+	color: #000000;
+	background-color: #eef0f3;
+	box-shadow: 0 0 3px 3px #eef0f3;
 }
 
 nav ul li, footer ul li {
@@ -55,39 +61,87 @@ nav ul h1 {
 	font-size: 38px;
 	margin-bottom: 10px;
 	margin-top: 10px;
+	border-bottom: 0px;
+	padding-bottom: 0px;
 }
 
 footer ul p {
 	margin-top: 0px;
 	font-style: italic;
 	color: #d6d6d6;
-	font-size: 15px;
+}
+
+/* 标题区 */
+
+h1 {
+    font-size: 32px;
+	padding-bottom: 5px;
+}
+
+h2 {
+    font-size:28px;
+}
+
+h3 {
+    font-size:24px;
+}
+
+h4 {
+    font-size:19px;
+}
+
+h5 {
+    font-size:15px;
 }
 
 /* 通用区 */
+
 a {
     text-decoration: none;
     color: #999;
 }
-a:hover {
-    /*text-decoration: underline;*/
-}
-h1 {
-    font-size: 32px;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
+
 p {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.4em;
     color: #333;
 }
 
-
 ul.posts { 
     margin: 20px auto 40px; 
-    font-size: 1.5em;
 }
 
 ul.posts li {
-    list-style: none;
+    /* list-style: none; */
+}
+
+code {
+	font-family: menlo;
+	color: #46a;
+}
+
+/* Post 区 */
+
+.post {
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom:20px;
+	background-color: #fafafa;
+	border-radius: 18px;
+	border-style: solid;
+	border-color: #fafafa;
+	border-width: 2px;
+	box-shadow: 0 0 9px 9px #fafafa;
+}
+
+.meta {
+	margin-top: 0px;
+	color: #bcbcbc;
+	font-style: italic;
+}
+
+.post-title {
+	margin-bottom: 0px;
 }

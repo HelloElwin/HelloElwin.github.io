@@ -1,5 +1,6 @@
 name: HelloElwin
 permalink: /blog/:year/:month/:day/:title
+highlighter: rouge
 
 # Conversion
 markdown            : kramdown
@@ -18,9 +19,4 @@ kramdown:
   hard_wrap         : false
   footnote_nr       : 1
   show_warnings     : false
-
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
 
