@@ -10,7 +10,13 @@ body {
 }
 
 /* 导航区与页尾 */
+
+footer {
+    border-top: 1px solid #e0e0e0;
+	margin-top: 36px;
+}
 nav {
+    border-bottom: 1px solid #e0e0e0;
 	margin-bottom: 36px;
 }
 
@@ -51,14 +57,10 @@ nav ul h1 {
 	margin-top: 10px;
 }
 
-footer {
-	margin-top: 36px;
-}
-
 footer ul p {
 	margin-top: 0px;
 	font-style: italic;
-	color: #868686;
+	color: #d6d6d6;
 	font-size: 15px;
 }
 
@@ -79,10 +81,7 @@ p {
     line-height: 1.4em;
     color: #333;
 }
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}
+
 
 ul.posts { 
     margin: 20px auto 40px; 
