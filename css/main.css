@@ -26,8 +26,8 @@ nav ul li a {
 	padding-bottom:	5px;
 	border-radius:	10px;
 	color: #666666;
-	transition: all 0.3s;
-	box-shadow: 0 0 9px 9px #eef0f3;
+	transition: all 0.1s;
+	/* box-shadow: 0 0 9px 9px #eef0f3; */
 }
 
 nav ul li a:hover {
