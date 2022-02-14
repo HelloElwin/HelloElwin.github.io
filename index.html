@@ -1,62 +1,28 @@
----
-layout: default
-title: Home
----
-
-<div class="home">
-  <div class="post-list">
-
-    {% for post in site.posts limit:5%}
-
-    <article class="post_card post">
-      <header class="post_header">
-        <h2 class="post_title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></h2>
-        <time class="post_date">{{ post.date | date: "%d %B %Y, %A" }}</time>
-      </header>
-      <div class="post_excerpt">
-        <p>
-          {% if post.description %}
-          {{ post.description}}
-          {% else %}
-          {{ post.excerpt }}
-          {% endif %} 
-          <a class="read-more" href="{{ post.url | prepend: site.baseurl }}"> »  </a>
-        </p> 
-      </div>
-      <footer class="post_meta">
-
-
-        {% if post.location %}
-        <span class="author-location">
-          <div data-icon="ei-location"></div>
-          <a href=https://www.google.com/maps/place/{{post.location}}">{{ post.location }}</a>
-        </span>
-        {% endif %}
-        <!--
-        {% for category in post.categories %}
-        <a href="{{"/category/" | append: category | prepend: site.baseurl }}">
-          <data data-icon="ei-archive"></data>
-          {{category}}</a>
-        {% endfor %}
-        -->
-
-        <!--
-        {% if post.author %}
-        <span class="author_meta">
-          <img src="{{site.baseurl}}/assets/img/{{post.author}}.jpg"></img>
-          <span>David Lin</span>
-        </span>
-        {% endif %}
-        -->
-
-        <!--p class="readmore">
-          <a href=""><data data-icon="ei-arrow-right"></data>Read this article  </a>
-        </p-->
-      </footer>
-      <hr/>
-    </article>
-    {% endfor %}
-
-    <div class="pagination older-post"><a href="./archive"><data data-icon="ei-arrow-right"></data> Archive  </a></div>
-  </div>
-</div>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hank Quinlan, Horrible Cop</title>
+	</head>
+	<body>
+		<nav>
+    		<ul>
+        		<li><a href="/">Home</a></li>
+	        	<li><a href="/about">About</a></li>
+        		<li><a href="/cv">CV</a></li>
+        		<li><a href="/blog">Blog</a></li>
+    		</ul>
+		</nav>
+		<div class="container">
+    		<div class="blurb">
+        		<h1>Hi there, I'm Hank Quinlan!</h1>
+				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
+    		</div><!-- /.blurb -->
+		</div><!-- /.container -->
+		<footer>
+    		<ul>
+        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
+        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
+			</ul>
+		</footer>
+	</body>
+</html>
