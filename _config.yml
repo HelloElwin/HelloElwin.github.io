@@ -5,9 +5,7 @@ highlighter: rouge
 # Conversion
 markdown            : kramdown
 highlighter         : rouge
-lsi                 : false
-excerpt_separator   : "\n\n"
-incremental         : false
+usemathjax          : true
 
 # Markdown Processors
 kramdown:
