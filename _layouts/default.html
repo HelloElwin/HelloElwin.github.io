@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+
 	 	<title>{{ page.title }}</title>
 		<link rel="shortcut icon" type="image/png" href="/images/helloelwin.png">
 
@@ -14,12 +15,7 @@
 		<script src="//cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.7.0/highlightjs-line-numbers.min.js"></script>
 		<script>hljs.initLineNumbersOnLoad();</script>
 
-		<script type="text/x-mathjax-config">
-        MathJax.Hub.Config({
-        TeX: { equationNumbers: { autoNumber: "AMS" } }
-        });
-		</script>
-		<script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+		{% include mathjax_support.html %}
 
 	</head>
 	<body>

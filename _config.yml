@@ -1,6 +1,5 @@
 name: HelloElwin
 permalink: /all/:title
-highlighter: rouge
 
 # Conversion
 markdown            : kramdown
