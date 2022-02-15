@@ -1,0 +1,62 @@
+table.hljs-ln {
+  width: auto;
+  border-width: 0px;
+}
+table.hljs-ln td {
+  border-width: 0px;
+}
+ 
+/* for block of numbers */
+.hljs-ln-numbers {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+ 
+  text-align: center;
+  color: #ccc;
+  border-right: 0px solid #3e3e3e !important;
+  vertical-align: top;
+	padding-right: 5px !important;
+}
+
+.hljs-ln-numbers {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+ 
+  text-align: center;
+  color: #ccc;
+  border-right: 0px solid #3e3e3e !important;
+  vertical-align: top;
+	padding-right: 5px !important;
+}
+ 
+/* for block of code */
+.hljs-ln-code {
+  padding-left: 10px !important;
+}
+
+code.hljs {
+	border-radius: 15px;
+}
+
+.hlsj, .highlight, .highlighter-rouge {
+	border-radius: 15px;
+	transition: all 0.2s;
+}
+
+.highlight, .hljs-ln-numbers {
+	border-radius: 10px;
+	transition: all 0.2s;
+}
+
+.highlight:hover .hljs-ln-numbers {
+	color: #fff;
+}
+

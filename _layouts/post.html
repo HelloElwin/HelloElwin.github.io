@@ -1,8 +1,18 @@
 ---
 layout: default
 ---
-<h1 class="post-title">{{ page.title }}</h1>
-<p class="meta"><b>Published: </b>{{ page.date | date_to_string }}</p>
+
+<div class="post-head">
+	<h1 class="post-title"> {{ page.title }} </h1>
+	<p class="post-meta"> 
+		<b>Published: </b>
+		{{ page.date | date_to_string }}
+		&nbsp<b>Category: </b>
+		{% for cat in site.categories %}
+			{{ cat[0] }}
+		{% endfor %}
+	</p>
+</div>
 
 <div class="post">
   {{ content }}

@@ -3,6 +3,8 @@
 某种蓝 #418ab4
 */
 
+@import "code.css";
+
 @font-face {
 	font-family: menlo;
 	src: '/fonts/menlo.ttc'
@@ -75,7 +77,7 @@ footer ul p {
 
 h1 {
     font-size: 32px;
-	padding-bottom: 5px;
+	padding-bottom: 0px;
 }
 
 h2 {
@@ -107,6 +109,12 @@ p {
     color: #333;
 }
 
+blockquote {
+	margin-left: 18px;
+	border-left: 4px solid #e6e6e6;
+	padding-left: 8px;
+}
+
 ul.posts { 
     margin: 20px auto 40px; 
 }
@@ -136,12 +144,17 @@ code {
 	box-shadow: 0 0 9px 9px #fafafa;
 }
 
-.meta {
+.post-meta {
 	margin-top: 0px;
-	color: #bcbcbc;
+	margin-bottom: 0px;
+	color: #d6d6d6;
 	font-style: italic;
 }
 
 .post-title {
 	margin-bottom: 0px;
+}
+
+.post-head {
+	margin-bottom: 40px;
 }

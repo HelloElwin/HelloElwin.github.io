@@ -4,6 +4,21 @@
 		<title>{{ page.title }}</title>
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<!--<link href="/css/highlight.css" rel="stylesheet" />-->
+
+		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/base16/railscasts.min.css">
+		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+		<script>hljs.initHighlightingOnLoad();</script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.7.0/highlightjs-line-numbers.min.js"></script>
+		<script>hljs.initLineNumbersOnLoad();</script>
+
+		<script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+        TeX: { equationNumbers: { autoNumber: "AMS" } }
+        });
+		</script>
+		<script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 	</head>
 	<body>
 		<nav>
@@ -11,7 +26,7 @@
 				<h1>HelloElwin's Blog</h1>
 				<li><a href="/">Home</a></li>
 				<li><a href="/about">About</a></li>
-				<li><a href="/blog">Blog</a></li>
+				<li><a href="/blog">All Posts</a></li>
 			</ul>
 		</nav>
 		<div class="container">

@@ -1,0 +1,15 @@
+---
+layout: category
+title: Photography - HelloElwin's Blog
+---
+
+{% for post in site.categories["photography"] %}
+	<li>
+		<span>{{ post.date | date_to_string }}</span>
+		&nbsp-&nbsp
+		<a href="{{ post.url }}" title="{{ post.title }}">
+			{{ post.title }}
+		</a>
+	</li>
+{% endfor %}
+
