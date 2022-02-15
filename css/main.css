@@ -135,6 +135,7 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+	margin-bottom: 9px;
 }
 
 ul.posts li span{
@@ -142,7 +143,28 @@ ul.posts li span{
 }
 
 ul.posts li a{
-	color: #666;
+	color: #333;
+	padding-left:	5px;
+	padding-right:	5px;
+	padding-top:	3px;
+	padding-bottom:	3px;
+	border-radius:	9px;
+	transition: all 0.3s;
+}
+
+.date {
+	transition: all 0.3s;
+}
+
+ul.posts li:hover .date{
+	color: #aeaeae;
+}
+
+ul.posts li a:hover{
+	color: #333;
+	color: #000000;
+	background-color: #eef0f3;
+	box-shadow: 0 0 4px 4px #eef0f3;
 }
 
 /* Post 区 */
