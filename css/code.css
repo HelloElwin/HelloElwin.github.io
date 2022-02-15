@@ -1,3 +1,8 @@
+code {
+	font-family: menlo;
+	font-size: 14px;
+}
+
 table.hljs-ln {
   width: auto;
   border-width: 0px;
@@ -31,7 +36,7 @@ table.hljs-ln td {
   user-select: none;
  
   text-align: center;
-  color: #ccc;
+  color: #888;
   border-right: 0px solid #3e3e3e !important;
   vertical-align: top;
 	padding-right: 5px !important;
@@ -44,6 +49,12 @@ table.hljs-ln td {
 
 code.hljs {
 	border-radius: 15px;
+	transition: all 0.6s;
+}
+
+code.hljs:hover, .hljs:hover{
+	margin-right: 6px;
+	background-color: #000;
 }
 
 .hlsj, .highlight, .highlighter-rouge {

@@ -10,21 +10,6 @@
 	src: url('/fonts/menlo.ttc')
 }
 
-@font-face {
-	font-family: huangtj;
-	src: url('/fonts/FZHuangTJXSJF.TTF')
-}
-
-@font-face {
-	font-family: lingfj;
-	src: url('/fonts/FZLingFJXKJW.TTF');
-}
-
-@font-face {
-	font-family: songti;
-	src: url('/fonts/Songti.ttc');
-}
-
 body {
 	font-size: 18px;
     font-family: 'San Francisco', 'Helvetica', 'Arial', 'Sans-Serif';
@@ -140,17 +125,24 @@ blockquote {
 	padding-left: 8px;
 }
 
+/* Category 区 */
+
 ul.posts { 
-    margin: 20px auto 40px; 
+	padding: 0px;
+	margin-top: 10px;
+	margin-bottom: 0px;
 }
 
 ul.posts li {
-    /* list-style: none; */
+    list-style: none;
 }
 
-code {
-	font-family: menlo;
-	color: #46a;
+ul.posts li span{
+	color: #d0d0d0;
+}
+
+ul.posts li a{
+	color: #666;
 }
 
 /* Post 区 */
