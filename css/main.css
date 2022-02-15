@@ -5,6 +5,12 @@
 
 @import "code.css";
 
+@media screen and (max-width: 999px) {
+  body {
+	  width: 100%;
+  }
+}
+
 @font-face {
 	font-family: menlo;
 	src: url('/fonts/menlo.ttc')
