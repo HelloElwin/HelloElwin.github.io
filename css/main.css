@@ -7,7 +7,22 @@
 
 @font-face {
 	font-family: menlo;
-	src: '/fonts/menlo.ttc'
+	src: url('/fonts/menlo.ttc')
+}
+
+@font-face {
+	font-family: huangtj;
+	src: url('/fonts/FZHuangTJXSJF.TTF')
+}
+
+@font-face {
+	font-family: lingfj;
+	src: url('/fonts/FZLingFJXKJW.TTF');
+}
+
+@font-face {
+	font-family: songti;
+	src: url('/fonts/Songti.ttc');
 }
 
 body {
@@ -59,12 +74,22 @@ nav ul li, footer ul li {
 }
 
 nav ul h1 {
-	color: #56a0f0;
+	color: #4690e6;
 	font-size: 38px;
 	margin-bottom: 10px;
 	margin-top: 10px;
 	border-bottom: 0px;
 	padding-bottom: 0px;
+}
+
+nav ul h4 {
+	font-family: song;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 15px;
+	margin-top: -10px;
+	margin-bottom: 20px;
+	color: #d0d0d0;
 }
 
 footer ul p {
