@@ -5,9 +5,15 @@
 
 @import "code.css";
 
-@media screen and (max-width: 999px) {
+@media (min-width: 1280px) {
   body {
-	  width: 100%;
+	  width: 80%;
+  }
+}
+
+@media (max-width: 1280px) {
+  body {
+	  width: 90%;
   }
 }
 
@@ -21,7 +27,6 @@ body {
 	font-size: 18px;
     font-family: 'San Francisco', 'Helvetica', 'Arial', 'Sans-Serif';
     margin: 60px auto;
-    width: 80%;
 }
 
 /* 导航区与页尾 */
