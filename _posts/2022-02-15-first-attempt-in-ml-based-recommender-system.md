@@ -62,7 +62,7 @@ $$
 当然没有人用那么傻瓜式的损失函数，一般会采用InfoNCE作为损失函数，原理还不太懂，公式如下：
 
 $$
-\cal{L}=\sum_{i=0}^I \log \frac{exp(S(e_{1i},e_{2i})/ \tau)}{\sum_{i'=0}^Iexp(S(e_{1i'},e_{2i'})/ \tau)}
+\cal{L}=\sum_{i=0}^I -\log \frac{exp(S(e_{1i},e_{2i})/ \tau)}{\sum_{i'=0}^Iexp(S(e_{1i'},e_{2i'})/ \tau)}
 $$
 
 其中$I$时总用户数量，右边是一堆Sigmoid函数的和，而$\tau$是InfoNCE中的被称为温度系数的一个常数。不太懂。
