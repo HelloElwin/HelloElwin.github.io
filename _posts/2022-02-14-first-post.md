@@ -5,7 +5,7 @@ categories: General
 date: 2022-02-14
 ---
 
-## Some mathmatical technique of proof
+## Some mathmatical techniques of proof
 
 This is a test post. However, it's not only for test, because:
 

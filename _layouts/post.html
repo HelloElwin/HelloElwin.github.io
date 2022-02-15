@@ -8,8 +8,8 @@ layout: default
 		<b>Published: </b>
 		{{ page.date | date_to_string }}
 		&nbsp<b>Category: </b>
-		{% for cat in site.categories %}
-			{{ cat[0] }}
+		{% for cat in page.categories %}
+			{{ cat }}
 		{% endfor %}
 	</p>
 </div>
