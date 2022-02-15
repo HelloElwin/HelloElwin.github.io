@@ -3,8 +3,6 @@ layout: home
 title: HelloElwin's Blog
 ---
 
-***This blog is still under development, it will start running soon...***
-
 # Welcome.
 
 Hi there, I am Elwin! (or 叶耀文 (Ye Yaowen)) 👋

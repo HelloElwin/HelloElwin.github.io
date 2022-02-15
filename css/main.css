@@ -11,6 +11,7 @@
 }
 
 body {
+	color: #333;
 	font-size: 18px;
     font-family: 'San Francisco', 'Helvetica', 'Arial', 'Sans-Serif';
     margin: 60px auto;
@@ -109,8 +110,16 @@ h5 {
 /* 通用区 */
 
 a {
-    text-decoration: none;
-    color: #999;
+    text-decoration: none;	
+}
+
+.post a {
+    color: #4690e6;
+	transition: all 0.2s;
+}
+
+.post a:hover {
+	color: #39a8e0
 }
 
 p {
@@ -123,6 +132,11 @@ blockquote {
 	margin-left: 18px;
 	border-left: 4px solid #e6e6e6;
 	padding-left: 8px;
+}
+
+li {
+
+	padding-bottom: 3px;
 }
 
 /* Category 区 */
@@ -170,10 +184,11 @@ ul.posts li a:hover{
 /* Post 区 */
 
 .post {
-	margin-left: 20px;
-	margin-right: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-top: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
 	padding-bottom:20px;
 	background-color: #fafafa;
 	border-radius: 18px;
