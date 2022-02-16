@@ -6,15 +6,23 @@
 @import "code.css";
 
 @media (min-width: 1280px) {
-  body {
-	  width: 80%;
-  }
+	body {
+		width: 80%;
+		font-size: 18px;
+	}
+	nav ul h4 {
+		font-size: 15px;
+	}
 }
 
 @media (max-width: 1280px) {
   body {
 	  width: 90%;
+	  font-size: 12px;
   }
+	nav ul h4 {
+		font-size: 11px;
+	}
 }
 
 @font-face {
@@ -24,7 +32,6 @@
 
 body {
 	color: #333;
-	font-size: 18px;
     font-family: 'San Francisco', 'Helvetica', 'Arial', 'Sans-Serif';
     margin: 60px auto;
 	letter-spacing: 0.36px;
@@ -84,7 +91,6 @@ nav ul h4 {
 	font-family: song, Simsun;
 	font-weight: bold;
 	font-style: italic;
-	font-size: 15px;
 	margin-top: -10px;
 	margin-bottom: 20px;
 	color: #d0d0d0;
@@ -135,7 +141,6 @@ a {
 }
 
 p {
-    font-size: 18px;
     line-height: 1.4em;
     color: #333;
 }
