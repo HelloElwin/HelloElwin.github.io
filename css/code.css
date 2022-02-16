@@ -71,3 +71,11 @@ code.hljs:hover, .hljs:hover{
 	color: #fff;
 }
 
+code.highlighter-rouge {
+	background-color: #efefef;
+	border-radius: 5px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}

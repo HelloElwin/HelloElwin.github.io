@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Chinese Style Photography
+title: Photography Test Post
 categories: photography
 date: 2022-02-15
 ---

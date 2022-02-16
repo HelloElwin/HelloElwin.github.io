@@ -31,10 +31,11 @@
 }
 
 body {
+	tab-size: 4;
 	color: #333;
     font-family: 'San Francisco', 'Helvetica', 'Arial', 'Sans-Serif';
     margin: 60px auto;
-	letter-spacing: 0.36px;
+	letter-spacing: 0.3px;
 }
 
 /* 导航区与页尾 */
