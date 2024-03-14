@@ -1,0 +1,240 @@
+/*
+某种白 #eef0f3
+某种蓝 #418ab4
+*/
+
+@import "code.css";
+
+@media (min-width: 840px) {
+	body {
+		width: 75%;
+		font-size: 18px;
+	}
+    .paperinfo {
+        font-size: 15px;
+    }
+	nav ul h4 {
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 840px) {
+    body {
+        width: 90%;
+        font-size: 12px;
+    }
+    .paperinfo {
+        font-size: 9px;
+    }
+	nav ul h4 {
+		font-size: 11px;
+	}
+}
+
+@font-face {
+	font-family: menlo;
+	src: url('/fonts/menlo.ttc')
+}
+
+body {
+	tab-size: 4;
+	color: #333;
+    font-family: 'San Francisco', 'Helvetica', 'Arial', 'Sans-Serif';
+    margin: 60px auto;
+	letter-spacing: 0.3px;
+}
+
+/* 导航区与页尾 */
+
+footer {
+    border-top: 1px solid #e0e0e0;
+	margin-top: 36px;
+}
+
+nav {
+	margin-bottom: 36px;
+}
+
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+
+nav ul li a {
+	padding-left:	5px;
+	padding-right:	5px;
+	padding-top:	5px;
+	padding-bottom:	5px;
+	border-radius:	10px;
+	color: #666666;
+	transition: all 0.2s;
+	box-shadow: 0 0 9px 9px #ffffff;
+}
+
+nav ul li a:hover {
+	color: #000000;
+	background-color: #eef0f3;
+	box-shadow: 0 0 3px 3px #eef0f3;
+}
+
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+	font-size: 18px;
+}
+
+nav ul h1 {
+	/*color: #4690e6;*/
+    color: #2676d0;
+	font-size: 38px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+nav ul h4 {
+	font-family: song, Simsun;
+	font-weight: bold;
+	font-style: italic;
+	margin-top: -10px;
+	margin-bottom: 20px;
+	color: #d0d0d0;
+}
+
+footer ul p {
+	margin-top: 0px;
+	font-style: italic;
+	color: #d6d6d6;
+}
+
+/* 标题区 */
+
+h1 {
+    font-size: 32px;
+	padding-bottom: 0px;
+}
+
+h2 {
+    font-size:28px;
+}
+
+h3 {
+    font-size:24px;
+}
+
+h4 {
+    font-size:19px;
+}
+
+h5 {
+    font-size:15px;
+}
+
+/* 通用区 */
+
+a {
+    text-decoration: none;	
+}
+
+.post a {
+    color: #3680d6;
+	/*transition: all 0.2s;*/
+}
+
+.post a:hover {
+	/*color: #39a8e0*/
+    color: #EA911E;
+}
+
+p {
+    line-height: 1.4em;
+    color: #333;
+}
+
+blockquote {
+	margin-left: 18px;
+	border-left: 4px solid #e6e6e6;
+	padding-left: 8px;
+}
+
+li {
+
+	padding-bottom: 3px;
+}
+
+/* Category 区 */
+
+ul.posts { 
+	padding: 0px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+ul.posts li {
+    list-style: none;
+	margin-bottom: 9px;
+}
+
+ul.posts li span{
+	color: #d0d0d0;
+}
+
+ul.posts li a{
+	color: #333;
+	padding-left:	5px;
+	padding-right:	5px;
+	padding-top:	3px;
+	padding-bottom:	3px;
+	border-radius:	9px;
+	transition: all 0.3s;
+}
+
+.date {
+	transition: all 0.3s;
+}
+
+ul.posts li:hover .date{
+	color: #aeaeae;
+}
+
+ul.posts li a:hover{
+	color: #333;
+	color: #000000;
+	background-color: #eef0f3;
+	box-shadow: 0 0 4px 4px #eef0f3;
+}
+
+/* Post 区 */
+
+.post {
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-top: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom:20px;
+	background-color: #fafafa;
+	border-radius: 18px;
+	border-style: solid;
+	border-color: #fafafa;
+	border-width: 2px;
+	box-shadow: 0 0 9px 9px #fafafa;
+}
+
+.post-meta {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #d6d6d6;
+	font-style: italic;
+}
+
+.post-title {
+	margin-bottom: 0px;
+}
+
+.post-head {
+	margin-bottom: 40px;
+}

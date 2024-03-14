@@ -1,0 +1,81 @@
+code {
+	font-family: menlo;
+	font-size: 14px;
+}
+
+table.hljs-ln {
+  width: auto;
+  border-width: 0px;
+}
+table.hljs-ln td {
+  border-width: 0px;
+}
+ 
+/* for block of numbers */
+.hljs-ln-numbers {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+ 
+  text-align: center;
+  color: #ccc;
+  border-right: 0px solid #3e3e3e !important;
+  vertical-align: top;
+	padding-right: 5px !important;
+}
+
+.hljs-ln-numbers {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+ 
+  text-align: center;
+  color: #888;
+  border-right: 0px solid #3e3e3e !important;
+  vertical-align: top;
+	padding-right: 5px !important;
+}
+ 
+/* for block of code */
+.hljs-ln-code {
+  padding-left: 10px !important;
+}
+
+code.hljs {
+	border-radius: 15px;
+	transition: all 0.6s;
+}
+
+code.hljs:hover, .hljs:hover{
+	margin-right: 6px;
+	background-color: #000;
+}
+
+.hlsj, .highlight, .highlighter-rouge {
+	border-radius: 15px;
+	transition: all 0.2s;
+}
+
+.highlight, .hljs-ln-numbers {
+	border-radius: 10px;
+	transition: all 0.2s;
+}
+
+.highlight:hover .hljs-ln-numbers {
+	color: #fff;
+}
+
+code.highlighter-rouge {
+	background-color: #efefef;
+	border-radius: 5px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
