@@ -14,11 +14,20 @@
         transition();
         document.documentElement.setAttribute('data-theme', 'light');
         localStorage.setItem('theme', 'light');
+        var iframe = document.querySelector('.utterances-frame');
+        var src = iframe.src;
+        var newSrc = src.replace(/theme=github-light|theme=github-dark/, 'theme=' + 'github-light');
       } else {
         transition();
         document.documentElement.setAttribute('data-theme', 'dark');
         localStorage.setItem('theme', 'dark');
-      }
+        var iframe = document.querySelector('.utterances-frame');
+        var src = iframe.src;
+        var newSrc = src.replace(/theme=github-light|theme=github-light/, 'theme=' + 'github-dark');
+      }      
+      
+      // Update the iframe's src to the new URL
+      iframe.src = newSrc;
     });
 
     let transition = () => {
