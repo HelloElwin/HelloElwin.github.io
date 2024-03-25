@@ -5,8 +5,8 @@ title: Yaowen Ye
 
 # Research Interests
 
-- 🎈 I'm interested in:
-    - 🫂 AI **alignment** and **scalable** oversight: How to ensure current and future AI systems follow human values? How can AI scale up human supervision so that future models with even larger scale can be effectively understood and aligned? 
+- 🎈 I am interested in:
+    - 🫂 AI **alignment** and **scalable** oversight: How to ensure current and future AI systems follow human values? How can AI scale up human supervision so that future models with even larger scale can be effectively understood and aligned? (current research focus)
     - 🧠 Cognitive **reasoning**: How can human intuition in domains like intuitive physics be better explained with methods in AI? How can theories in cognitive science like abductive reasoning inspire the understanding and design of AI?
     - ❄️  Learning on graphs: How can we better model graph data for applications like recommender systems? How can we ensure these models are designed impartially and responsibly for real-world deployment?
 
