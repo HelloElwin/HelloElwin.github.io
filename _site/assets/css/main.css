@@ -11,11 +11,11 @@
 @font-face { font-family: menlo; src: url("/fonts/menlo.ttc"); }
 
 /* -------------- THEME SWITCHER -------------- */
-html { --bg-secondary: #f8f8f8; --headings: #000; --links: blue; --highlight: #FFECB2; --code-text: #9D174D; --share-text: #999; --head: #000; --bg: #FFF; --text: #333; --footer-border: #e0e0e0; --footer-text: #d6d6d6; --nav-discription: #d0d0d0; --post: #fafafa; --nav-hover: #000; --nav-hover-bg: #eef0f3; --block-quote: #e6e6e6; --nav-text: #666666; --date: #aeaeae; --a: #68ADCA; --a-hover-underline: #dedede; --a-hover-bg: #efefef; }
+html { --bg-secondary: #f8f8f8; --headings: #000; --links: blue; --highlight: #FFECB2; --code-text: #9D174D; --share-text: #999; --head: #000; --bg: #FFF; --text: #333; --quote-text: #8a8a8a; --footer-border: #e0e0e0; --footer-text: #d6d6d6; --nav-discription: #d0d0d0; --post: #fafafa; --nav-hover: #000; --nav-hover-bg: #eef0f3; --block-quote: #e6e6e6; --nav-text: #666666; --date: #aeaeae; --a: #68ADCA; --a-hover-underline: #dedede; --a-hover-bg: #efefef; }
 
-html[data-theme="dark"] html, html[data-theme="dark"] body { --headings: #74c0fc; --links: #91A7FF; --highlight: #41C7C7; --bg-secondary: #323945; --code-text: #91A7FF; --share-text: #C4C4C4; --head: #FFF; --bg: #111; --text: #cfcfcf; --footer-border: #3f3f3f; --footer-text: #4a4a4a; --nav-discription: #5f5f5f; --post: #161616; --nav-hover: #fff; --nav-hover-bg: #212121; --block-quote: #3a3a3a; --nav-text: #999999; --data: #595959; --a: #95c5da; --a-hover-underline: #3f3f3f; --a-hover-bg: #313131; }
+html[data-theme="dark"] html, html[data-theme="dark"] body { --headings: #74c0fc; --links: #91A7FF; --highlight: #41C7C7; --bg-secondary: #323945; --code-text: #91A7FF; --share-text: #C4C4C4; --head: #FFF; --bg: #111; --text: #cfcfcf; --quote-text: #a0a0a0; --footer-border: #3f3f3f; --footer-text: #4a4a4a; --nav-discription: #5f5f5f; --post: #161616; --nav-hover: #fff; --nav-hover-bg: #212121; --block-quote: #606060; --nav-text: #999999; --data: #595959; --a: #95c5da; --a-hover-underline: #3f3f3f; --a-hover-bg: #313131; }
 
-@media (prefers-color-scheme: dark) { body[data-theme="auto"] html, body[data-theme="auto"] body { --headings: #74c0fc; --links: #91A7FF; --highlight: #41C7C7; --bg-secondary: #323945; --code-text: #91A7FF; --share-text: #C4C4C4; --head: #FFF; --bg: #111; --text: #cfcfcf; --footer-border: #3f3f3f; --footer-text: #4a4a4a; --nav-discription: #5f5f5f; --post: #161616; --nav-hover: #fff; --nav-hover-bg: #212121; --block-quote: #3a3a3a; --nav-text: #999999; --data: #595959; --a: #95c5da; --a-hover-underline: #3f3f3f; --a-hover-bg: #313131; } }
+@media (prefers-color-scheme: dark) { body[data-theme="auto"] html, body[data-theme="auto"] body { --headings: #74c0fc; --links: #91A7FF; --highlight: #41C7C7; --bg-secondary: #323945; --code-text: #91A7FF; --share-text: #C4C4C4; --head: #FFF; --bg: #111; --text: #cfcfcf; --quote-text: #a0a0a0; --footer-border: #3f3f3f; --footer-text: #4a4a4a; --nav-discription: #5f5f5f; --post: #161616; --nav-hover: #fff; --nav-hover-bg: #212121; --block-quote: #606060; --nav-text: #999999; --data: #595959; --a: #95c5da; --a-hover-underline: #3f3f3f; --a-hover-bg: #313131; } }
 
 /* -------------------------------------------- */
 /* Dark Mode Button */
@@ -66,7 +66,9 @@ a { text-decoration: none; }
 
 p { line-height: 1.4em; color: var(--text); }
 
-blockquote { margin-left: 18px; border-left: 4px solid var(--block-quote); padding-left: 8px; }
+blockquote { color: var(--quote-text); margin-left: 18px; border-left: 4px solid var(--block-quote); padding-left: 8px; }
+
+blockquote p { color: var(--quote-text); }
 
 li { padding-bottom: 3px; }
 

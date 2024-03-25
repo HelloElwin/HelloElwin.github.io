@@ -49,6 +49,7 @@ html {
 	--head: #000;
 	--bg: #FFF;
 	--text: #333;
+	--quote-text: #8a8a8a;
 	--footer-border: #e0e0e0;
 	--footer-text: #d6d6d6;
 	--nav-discription: #d0d0d0;
@@ -75,13 +76,14 @@ html {
 	  --head: #FFF;
 	  --bg: #111;
 	  --text: #cfcfcf;
+	  --quote-text: #a0a0a0;
 	  --footer-border: #3f3f3f;
 	  --footer-text: #4a4a4a;
 	  --nav-discription: #5f5f5f;
 	  --post: #161616;
 	  --nav-hover: #fff;
 	  --nav-hover-bg: #212121;
-	  --block-quote: #3a3a3a;
+	  --block-quote: #606060;
 	  --nav-text: #999999;
 	  --data: #595959; // not sure what this is	
 	  --a: #95c5da;
@@ -249,9 +251,14 @@ p {
 }
 
 blockquote {
+	color: var(--quote-text);
 	margin-left: 18px;
 	border-left: 4px solid var(--block-quote);
 	padding-left: 8px;
+}
+
+blockquote p {
+	color: var(--quote-text);
 }
 
 li {
