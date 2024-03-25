@@ -1,18 +1,0 @@
-I"<p>Nanjing is Yuchen’s hometown, …</p>
-
-<h1><style></style></h1>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>.image-gallery {overflow: auto; margin-left: -1%!important;}
-.image-gallery li {float: left; display: block; margin: 0 0 1% 1%; width: 19%;}
-.image-gallery li a {text-align: center; text-decoration: none!important; color: #777;}
-.image-gallery li a span {display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 3px 0;}
-.image-gallery li a img {width: 100%; display: block;}
-</code></pre></div></div>
-<p>&lt;/style&gt;</p>
-
-<ul class="image-gallery"><li><a href="/images/me.jpg" title="me"><img src="//images.weserv.nl/?url=localhost:4000/images/me.jpg&amp;w=300&amp;h=300&amp;output=jpg&amp;q=50&amp;t=square" />
-        </a></li>
-    <li><a href="/images/me2.jpg" title="me2"><img src="//images.weserv.nl/?url=localhost:4000/images/me2.jpg&amp;w=300&amp;h=300&amp;output=jpg&amp;q=50&amp;t=square" />
-        </a></li>
-    </ul>
-
-:ET
