@@ -1,0 +1,336 @@
+/*
+某种白 #eef0f3
+某种蓝 #418ab4
+*/
+
+@import "code.css";
+
+@media (min-width: 840px) {
+	body {
+		width: 70%;
+		font-size: 18px;
+	}
+    .paperinfo {
+        font-size: 15px;
+    }
+	nav ul h4 {
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 840px) {
+    body {
+        width: 90%;
+        font-size: 12px;
+    }
+    .paperinfo {
+        font-size: 9px;
+    }
+	nav ul h4 {
+		font-size: 11px;
+	}
+}
+
+@font-face {
+	font-family: menlo;
+	src: url('/fonts/menlo.ttc')
+}
+
+/* -------------- THEME SWITCHER -------------- */
+
+html {
+    --bg-secondary: #f8f8f8;
+    --headings: #000;
+    --links: blue;
+    --highlight: #FFECB2; // light yellow
+    --code-text: #9D174D;
+    --share-text: #999;
+	
+	--head: #000;
+	--bg: #FFF;
+	--text: #333;
+	--footer-border: #e0e0e0;
+	--footer-text: #d6d6d6;
+	--nav-discription: #d0d0d0;
+	--post: #fafafa;
+	--nav-hover: #000;
+	--nav-hover-bg: #eef0f3;
+	--block-quote: #e6e6e6;
+	--nav-text: #666666;
+	--date: #aeaeae; // not sure what this is
+	--a: #68ADCA;
+	--a-hover-underline: #dedede;
+	--a-hover-bg: #efefef;
+}
+
+@mixin dark-appearance {
+  html, body  {
+      --headings: #74c0fc;
+      --links: #91A7FF;
+      --highlight: #41C7C7;
+      --bg-secondary: #323945;
+      --code-text: #91A7FF;
+      --share-text: #C4C4C4;
+
+	  --head: #FFF;
+	  --bg: #111;
+	  --text: #cfcfcf;
+	  --footer-border: #3f3f3f;
+	  --footer-text: #4a4a4a;
+	  --nav-discription: #5f5f5f;
+	  --post: #161616;
+	  --nav-hover: #fff;
+	  --nav-hover-bg: #212121;
+	  --block-quote: #3a3a3a;
+	  --nav-text: #999999;
+	  --data: #595959; // not sure what this is	
+	  --a: #95c5da;
+	  --a-hover-underline: #3f3f3f;
+	  --a-hover-bg: #313131;
+  }
+  };
+
+html[data-theme="dark"] { @include dark-appearance; }
+
+@media (prefers-color-scheme: dark) {
+  body[data-theme="auto"] { @include dark-appearance; }
+}
+
+/* -------------------------------------------- */
+
+/* Dark Mode Button */
+
+.theme-toggle {
+	/* make it transparent, alpha = 8 */
+	color: var(--footer-text);
+	background-color: transparent;
+	padding: 4px;
+	cursor: pointer;
+	margin: 1em;
+	position: fixed;
+	right: 0;
+	top: 0;
+	border: 2px transparent solid;
+	outline: none;
+	transition: all 0.4s;
+  }
+  
+  .theme-toggle:hover {
+	color: var(--head);
+	outline: none;
+	transition: all 0.4s;
+  }
+
+  .theme-toggle:focus {
+	outline: none;
+  }
+
+/* 导航区与页尾 */
+
+body {
+	tab-size: 4;
+	color: var(--text);
+    font-family: 'San Francisco', 'Helvetica', 'Arial', 'Sans-Serif';
+    margin: 60px auto;
+	letter-spacing: 0.3px;
+	background-color: var(--bg);
+}
+
+footer {
+    border-top: 1px solid var(--footer-border);
+	margin-top: 36px;
+}
+
+nav {
+	margin-bottom: 36px;
+}
+
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+
+nav ul li a {
+	padding-left:	5px;
+	padding-right:	5px;
+	padding-top:	5px;
+	padding-bottom:	5px;
+	border-radius:	10px;
+	color: var(--nav-text);
+	transition: all 0.2s;
+	box-shadow: 0 0 10px 10px var(--bg);
+}
+
+nav ul li a:hover {
+	color: var(--nav-hover);
+	background-color: var(--nav-hover-bg);
+	box-shadow: 0 0 3.5px 3.5px var(--nav-hover-bg);
+}
+
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+	font-size: 18px;
+}
+
+nav ul h1 {
+	// color: #4690e6;
+    // color: #2676d0;
+	color: var(--head);
+	font-size: 38px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+nav ul h4 {
+	font-family: song, Simsun;
+	font-weight: bold;
+	font-style: italic;
+	margin-top: -10px;
+	margin-bottom: 20px;
+	color: var(--nav-discription);
+}
+
+footer ul p {
+	margin-top: 0px;
+	font-style: italic;
+	color: var(--footer-text);
+}
+
+/* 标题区 */
+
+h1 {
+    font-size: 32px;
+	padding-bottom: 0px;
+}
+
+h2 {
+    font-size:28px;
+}
+
+h3 {
+    font-size:24px;
+}
+
+h4 {
+    font-size:19px;
+}
+
+h5 {
+    font-size:15px;
+}
+
+/* 通用区 */
+
+a {
+    text-decoration: none;	
+}
+
+.post a {
+    color: var(--a);
+	// transition: all 0.0s;
+}
+
+.post a:hover {
+	color: var(--a);
+	text-decoration: underline;
+	text-decoration-color: var(--a-hover-underline);
+	text-underline-offset: 3px;
+	background-color: var(--a-hover-bg);
+}
+
+p {
+    line-height: 1.4em;
+    color: var(--text);
+}
+
+blockquote {
+	margin-left: 18px;
+	border-left: 4px solid var(--block-quote);
+	padding-left: 8px;
+}
+
+li {
+
+	padding-bottom: 3px;
+}
+
+/* Category 区 */
+
+ul.posts { 
+	padding: 0px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+ul.posts li {
+    list-style: none;
+	margin-bottom: 9px;
+}
+
+ul.posts li span{
+	color: var(--nav-discription);
+}
+
+ul.posts li a{
+	color: var(--text);
+	padding-left:	5px;
+	padding-right:	5px;
+	padding-top:	3px;
+	padding-bottom:	3px;
+	border-radius:	9px;
+	transition: all 0.3s;
+	text-decoration: none;
+}
+
+.date {
+	transition: all 0.3s;
+}
+
+ul.posts li:hover .date{
+	color: var(--date);
+}
+
+ul.posts li a:hover{
+	color: var(--tes);
+	// color: #000000;
+	text-decoration: none;
+	background-color: var(--nav-hover-bg);
+	box-shadow: 0 0 4px 4px var(--nav-hover-bg);
+}
+
+/* Post 区 */
+
+.post {
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-top: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom:20px;
+	background-color: var(--post);
+	border-radius: 18px;
+	border-style: solid;
+	border-color: var(--post);
+	border-width: 2px;
+	box-shadow: 0 0 9px 9px var(--post);
+}
+
+.post-meta {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: var(--footer-text);
+	font-style: italic;
+}
+
+.post-title {
+	margin-bottom: 0px;
+}
+
+.post-head {
+	margin-bottom: 40px;
+}

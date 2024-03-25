@@ -9,13 +9,15 @@ title: Blog - Yaowen Ye
 	<ul class="posts">
 	
 	{% for post in site.posts %}
-		<li>
-			<span class="date">{{ post.date | date_to_string }}</span>
-			&nbsp;
-			<a href="{{ post.url }}" title="{{ post.title }}">
-				{{ post.title }}
-			</a>
-		</li>
+        {% unless post.categories contains "photography" or post.categories contains "music" %}
+		    <li>
+		    	<span class="date">{{ post.date | date_to_string }}</span>
+		    	&nbsp;
+		    	<a href="{{ post.url }}" title="{{ post.title }}">
+		    		{{ post.title }}
+		    	</a>
+		    </li>
+        {% endunless %}
 	{% endfor %}
 
 	</ul>

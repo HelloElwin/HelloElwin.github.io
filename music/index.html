@@ -1,0 +1,22 @@
+---
+layout: default
+title: Music - Yaowen Ye
+---
+
+<h1> Music </h1>
+
+<div class="post">
+<ul class="posts">
+
+{% for post in site.categories["music"] %}
+	<li>
+		<span class="date">{{ post.date | date_to_string }}</span>
+		&nbsp;
+		<a href="{{ post.url }}" title="{{ post.title }}">
+			{{ post.title }}
+		</a>
+	</li>
+{% endfor %}
+
+</ul>
+</div>

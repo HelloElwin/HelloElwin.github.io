@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="post-head">
+	<h1 class="post-title"> {{ page.title }} </h1>
+	<p class="post-meta"> 
+		<b>Published: </b>
+		{{ page.date | date_to_string }}
+        &nbsp<b>Category: </b>
+		{% for cat in page.categories %}
+			{{ cat }}
+		{% endfor %}
+	</p>
+</div>
+
+<div class="post">
+  {{ content }}
+</div>

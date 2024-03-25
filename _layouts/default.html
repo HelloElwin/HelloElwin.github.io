@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html data-theme="auto">
 	<head>
 
         {% include analytics.html %}
@@ -8,8 +8,12 @@
 		<link rel="shortcut icon" type="image/png" href="/images/helloelwin.png">
 
 		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<!-- <link rel="stylesheet" type="text/css" href="/css/main.css"> -->
+		<link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />
 		<!--<link href="/css/highlight.css" rel="stylesheet" />-->
+
+        {% include toggle_theme_js.html %}
+        {% include toggle_theme_button.html %}
 
 		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/base16/railscasts.min.css">
 		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
@@ -28,6 +32,7 @@
 				<li><a href="/">Home</a></li>
 				<li><a href="/all">Blog</a></li>
 				<li><a href="/photography">Photography</a></li>
+				<li><a href="/music">Music</a></li>
 			</ul>
 		</nav>
         <div class="container">
@@ -37,7 +42,7 @@
 		</div><!-- /.container -->
 		<footer>
 			<ul>
-				<p>Designed by HelloElwin (2023)</p>
+				<p>Designed by HelloElwin (2024)</p>
 				<!-- <li><a href="elwin@connect.hku.hk">email</a></li> -->
 			</ul>
 		</footer>
