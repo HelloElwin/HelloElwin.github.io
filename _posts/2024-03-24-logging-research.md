@@ -35,8 +35,8 @@ These data are unreasonably easy to collect (just write down what you did on the
 If you're willing to share your notebook with others, it can greatly help them improve their research practices. Sharing your thought processes, problem-solving approaches, and even struggles can provide valuable insights to fellow researchers, especially those who are just starting their journey. For example, below are two pages from a notebook that I got from BAIR. The left page shows detailed reasoning process of the author, and the right page shows a summary of how to start working on a research problem.
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="../images/bair-notebook-1.jpg" alt="BAIR notebook page 1" style="width: 49%;"/>
-    <img src="../images/bair-notebook-2.jpg" alt="BAIR notebook page 2" style="width: 49%;"/>
+    <img src="/assets/images/blog/bair-notebook-1.jpg" alt="BAIR notebook page 1" style="width: 49%;"/>
+    <img src="/assets/images/blog/bair-notebook-2.jpg" alt="BAIR notebook page 2" style="width: 49%;"/>
 </div>
 
 ### Some practical tips for logging
@@ -57,7 +57,7 @@ I use Notion to keep my research log. I create two databases for daily and weekl
 
 The good thing about Notion is that you can search in your log and ask questions about past events easily with Notion AI. I also tried prompting GPT-4 to generate a summarization of all my random ideas. The results are not that surprising, but they are kind of related and serve as a good summary of what came to my mind in the past week. Perhaps as AIs scale, they can do better on this and help us on *scalable oversight* of ourselves. Moreover, if we can collect enough high-quality data, maybe we can even train a model to predict what we should do next based on our past logs, resulting in an automatic (superhuman-)AI researcher.
 
-<img src="../images/ai-researcher.png" alt="Training AI researcher" style="width: 100%;"/>
+<img src="/assets/images/blog/ai-researcher.png" alt="Training AI researcher" style="width: 100%;"/>
 
 
 Well but that's a bit far-fetched. For now, GPT-4 only gives me a vague summary like this:
