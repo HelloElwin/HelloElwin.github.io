@@ -1,6 +1,6 @@
 @import "code.css";
 
-@media (min-width: 950px) {
+@media (min-width: 920px) {
 	body {
 		width: 880px;
 		font-size: 1.25em;
@@ -16,7 +16,7 @@
 	}
 }
 
-@media (max-width: 950px) {
+@media (max-width: 920px) {
     body {
         width: 95%;
         font-size: 1.5em;
@@ -25,10 +25,10 @@
 	.post {
 		margin-left: 0.5em;
 		margin-right: 0.5em;
-		padding-top: 0.5em;
-		padding-left: 1em;
-		padding-right: 1em;
-		padding-bottom: 0.5em;
+		padding-top: 1em;
+		padding-left: 0.5em;
+		padding-right: 0.5em;
+		padding-bottom: 1em;
 	}
 }
 
@@ -227,7 +227,7 @@ h1, h2, h3, h4, h5 {
 h1 {
 	margin-top: 0px;
 	font-family: 'EB Garamond', 'Sans-Serif';   
-	font-size: 1.8em;
+	font-size: 2em;
 	font-weight: 800;
 	color: var(--head);
 }
