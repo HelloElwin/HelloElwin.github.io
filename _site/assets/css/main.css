@@ -1,8 +1,8 @@
 @charset "UTF-8";
 @import url(code.css);
-@media (min-width: 950px) { body { width: 880px; font-size: 19px; font-weight: 350; } .paperinfo { font-size: 0.8em; } .post { margin-left: 1.5em; margin-right: 1.5em; padding-top: 1em; padding-left: 2em; padding-right: 2em; padding-bottom: 1em; } }
+@media (min-width: 950px) { body { width: 880px; font-size: 1.2em; font-weight: 350; } .post { margin-left: 1.5em; margin-right: 1.5em; padding-top: 1em; padding-left: 2em; padding-right: 2em; padding-bottom: 1em; } }
 
-@media (max-width: 950px) { body { width: 95%; font-size: 19px; font-weight: 350; } .paperinfo { font-size: 0.8em; } .post { margin-left: 0.5em; margin-right: 0.5em; padding-top: 0.5em; padding-left: 1em; padding-right: 1em; padding-bottom: 0.5em; } }
+@media (max-width: 950px) { body { width: 95%; font-size: 1.2em; font-weight: 350; } .post { margin-left: 0.5em; margin-right: 0.5em; padding-top: 0.5em; padding-left: 1em; padding-right: 1em; padding-bottom: 0.5em; } }
 
 @font-face { font-family: menlo; src: url("/assets/fonts/Menlo.ttc"); }
 
@@ -25,6 +25,8 @@ html[data-theme="dark"] html, html[data-theme="dark"] body { --headings: #74c0fc
 .homeimage { width: 100%; border-radius: 1.2em; margin-bottom: 1em; }
 
 body { tab-size: 4; color: var(--text); font-family: 'Karla', 'Kantumruy Pro', 'Sans-Serif'; margin: 60px auto; background-color: var(--bg); }
+
+.paperinfo { font-size: 0.8em; }
 
 footer { border-top: 1px solid var(--footer-border); margin-top: 3em; }
 

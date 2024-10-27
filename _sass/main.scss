@@ -3,12 +3,9 @@
 @media (min-width: 950px) {
 	body {
 		width: 880px;
-		font-size: 19px;
+		font-size: 1.2em;
 		font-weight: 350;
 	}
-    .paperinfo {
-        font-size: 0.8em;
-    }
 	.post {
 		margin-left: 1.5em;
 		margin-right: 1.5em;
@@ -22,11 +19,8 @@
 @media (max-width: 950px) {
     body {
         width: 95%;
-        font-size: 19px;
+        font-size: 1.2em;
 		font-weight: 350;
-    }
-    .paperinfo {
-        font-size: 0.8em;
     }
 	.post {
 		margin-left: 0.5em;
@@ -148,6 +142,10 @@ body {
     font-family: 'Karla', 'Kantumruy Pro', 'Sans-Serif';
     margin: 60px auto;
 	background-color: var(--bg);
+}
+
+.paperinfo {
+	font-size: 0.8em;
 }
 
 footer {
