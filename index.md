@@ -5,10 +5,9 @@ title: Yaowen Ye
 
 # Research Interests
 
-I am interested in ensuring reliable human supervision for complex AI systems that produce complex outputs. Some questions I am thinking about recently are:
-- How can we design human-AI collaboration mechanisms to amplify human oversight so that increase in human effort is minimized even as AI's complexity and compute scale?
-- When human feedback is imperfect, how can AIs learn to do better than humans without replicating their errors?
-- Can models develop good values purely based on reasoning so that the impact of human supervision errors can be minimized?
+I am interested in making human oversight of AI systems reliable on hard tasks and efficient for complex outputs. Some questions I am thinking about recently are:
+- How can AI help humans give accurate feedback efficiently for complex model outputs that might require group of experts days to understand?
+- When human feedback is prone to errors, how can AIs learn to do better than humans instead of replicating their mistakes?
 
 In the past, I also worked on
 - Cognitive reasoning: How can we explain humans' reasoning process such as intuitive physics and abductive reasoning? How do these explanations inspire understanding of AI?
