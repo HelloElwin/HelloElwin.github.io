@@ -8,7 +8,7 @@ body { width: 880px; font-size: 1.25rem; font-weight: 350; }
 
 @media (max-width: 920px) { html { font-size: 16px; } body { width: 95%; font-size: 1.25rem; font-weight: 350; } .post { margin-left: 0.5em; margin-right: 0.5em; padding-top: 1em; padding-left: 0.5em; padding-right: 0.5em; padding-bottom: 1em; } }
 
-@media (max-width: 768px) { html { font-size: 3vw; } body { width: 95%; font-size: 1.25rem; font-weight: 350; } .post { margin-left: 0.5em; margin-right: 0.5em; padding-top: 1em; padding-left: 0.5em; padding-right: 0.5em; padding-bottom: 1em; } }
+@media only screen and (max-width: 768px) { html { font-size: 2.8vw; } body { width: 95%; font-size: 1.25rem; font-weight: 350; } .post { margin-left: 0.5em; margin-right: 0.5em; padding-top: 1em; padding-left: 0.5em; padding-right: 0.5em; padding-bottom: 1em; } }
 
 @font-face { font-family: menlo; src: url("/assets/fonts/Menlo.ttc"); }
 

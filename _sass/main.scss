@@ -36,9 +36,9 @@ body {
 	}
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 	html {
-		font-size: 3vw;
+		font-size: 2.8vw;
 	}
     body {
         width: 95%;
