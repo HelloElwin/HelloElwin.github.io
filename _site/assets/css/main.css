@@ -44,7 +44,7 @@ nav ul li a { padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-b
 
 nav ul li a:hover { color: var(--nav-hover); background-color: var(--nav-hover-bg); box-shadow: 0 0 3.5px 3.5px var(--nav-hover-bg); }
 
-nav ul li, footer ul li { display: inline; margin-right: 20px; }
+nav ul li, footer ul li { display: inline; margin-right: 0.7em; }
 
 nav ul h1 { color: var(--head); font-size: 2.5em; font-weight: 900; margin-top: 1em; border-bottom: 0px; padding-bottom: 0px; }
 
