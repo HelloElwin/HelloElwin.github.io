@@ -4,7 +4,7 @@ html {
 	font-size: 16px;
 }
 body {
-	width: 880px;
+	width: 890px;
 	font-size: 1.25rem;
 	font-weight: 350;
 }
@@ -17,12 +17,12 @@ body {
 	padding-bottom: 1em;
 }
 
-@media (max-width: 920px) {
+@media (max-width: 989px) {
 	html {
 		font-size: 16px;
 	}
     body {
-        width: 95%;
+        width: 90%;
         font-size: 1.25rem;
 		font-weight: 350;
     }
@@ -41,7 +41,7 @@ body {
 		font-size: 2.8vw;
 	}
     body {
-        width: 95%;
+        width: 90%;
         font-size: 1.25rem;
 		font-weight: 350;
     }
@@ -79,8 +79,9 @@ html {
 	--nav-discription: #a0a0a0;
 	--post: #f9f9f9;
 	--nav-hover: #000;
-	--nav-hover-bg: #f3f3f3;
-	--block-quote: #e6e6e6;
+	--nav-hover-bg: #f0f0f0;
+	--block-quote-border: #e6e6e6;
+	--block-quote-background: #efefef;
 	--nav-text: #666666;
 	--date: #aeaeae; // not sure what this is
 	--a: #68ADCA;
@@ -106,8 +107,9 @@ html {
 	  --nav-discription: #afafaf;
 	  --post: #1d1d1d;
 	  --nav-hover: #fff;
-	  --nav-hover-bg: #232323;
-	  --block-quote: #606060;
+	  --nav-hover-bg: #323232;
+	  --block-quote-border: #4a4a4a;
+	  --block-quote-background: #2e2e2e;
 	  --nav-text: #999999;
 	  --data: #595959; // not sure what this is	
 	  --a: #95c5da;
@@ -197,12 +199,17 @@ nav ul li a {
 	transition: all 0.2s;
 	box-shadow: 0 0 10px 10px var(--bg);
 	font-weight: 100;
+	position: relative;
+	text-align: center;
+    display: inline-block;
+    transition: all 0.3s ease;
 }
 
 nav ul li a:hover {
-	color: var(--nav-hover);
-	background-color: var(--nav-hover-bg);
-	box-shadow: 0 0 3.5px 3.5px var(--nav-hover-bg);
+    color: var(--nav-hover);
+    background-color: var(--nav-hover-bg);
+    font-weight: 600;
+    box-shadow: 0 0 3.5px 3.5px var(--nav-hover-bg);
 }
 
 nav ul li, footer ul li {
@@ -217,6 +224,7 @@ nav ul h1 {
 	margin-top: 1em;
 	border-bottom: 0px;
 	padding-bottom: 0px;
+	transition: all 0.3s ease;
 }
 
 nav ul h4 {
@@ -228,10 +236,25 @@ nav ul h4 {
 	font-weight: 100;
 	letter-spacing: 0.1em;
 	color: var(--nav-discription);
+	transition: all 0.3s ease;
+}
+
+nav ul h4:hover {
+	letter-spacing: 0.7em;
+}
+
+footer ul p:hover {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-style: italic;
+	color: var(--headings);
+	font-weight: 900;
 }
 
 footer ul p {
+	transition: all 0.3s;
 	margin-top: 0px;
+	margin-bottom: 0px;
 	font-style: italic;
 	color: var(--footer-text);
 }
@@ -240,7 +263,6 @@ footer ul p {
 
 strong {
 	font-weight: 650;
-	// letter-spacing: -1px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -302,8 +324,12 @@ blockquote {
 	font-family: 'EB Garamond', 'Sans-Serif';
 	color: var(--quote-text);
 	margin-left: 0em;
-	border-left: 0.25em solid var(--block-quote);
+	border-left: 0.25em solid var(--block-quote-border);
+	background-color: var(--block-quote-background);
 	padding-left: 0.8em;
+	padding-right: 0.8em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
 }
 
 blockquote p {
