@@ -190,8 +190,8 @@ nav ul, footer ul {
 }
 
 nav ul li a {
-	padding-left:	0.15em;
-	padding-right:	0.15em;
+	padding-left:	0.3em;
+	padding-right:	0.3em;
 	padding-top:	5px;
 	padding-bottom:	5px;
 	border-radius:	10px;
@@ -208,7 +208,7 @@ nav ul li a {
 nav ul li a:hover {
     color: var(--nav-hover);
     background-color: var(--nav-hover-bg);
-    font-weight: 600;
+    // font-weight: 600;
     box-shadow: 0 0 3.5px 3.5px var(--nav-hover-bg);
 }
 

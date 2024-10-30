@@ -40,9 +40,9 @@ nav { margin-bottom: 3em; }
 
 nav ul, footer ul { font-family: 'EB Garamond', 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; }
 
-nav ul li a { padding-left: 0.15em; padding-right: 0.15em; padding-top: 5px; padding-bottom: 5px; border-radius: 10px; color: var(--nav-text); transition: all 0.2s; box-shadow: 0 0 10px 10px var(--bg); font-weight: 100; position: relative; text-align: center; display: inline-block; transition: all 0.3s ease; }
+nav ul li a { padding-left: 0.3em; padding-right: 0.3em; padding-top: 5px; padding-bottom: 5px; border-radius: 10px; color: var(--nav-text); transition: all 0.2s; box-shadow: 0 0 10px 10px var(--bg); font-weight: 100; position: relative; text-align: center; display: inline-block; transition: all 0.3s ease; }
 
-nav ul li a:hover { color: var(--nav-hover); background-color: var(--nav-hover-bg); font-weight: 600; box-shadow: 0 0 3.5px 3.5px var(--nav-hover-bg); }
+nav ul li a:hover { color: var(--nav-hover); background-color: var(--nav-hover-bg); box-shadow: 0 0 3.5px 3.5px var(--nav-hover-bg); }
 
 nav ul li, footer ul li { display: inline; margin-right: 0.7em; }
 
