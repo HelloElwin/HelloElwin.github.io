@@ -34,7 +34,7 @@ What I will cover in this post:
 
 ### Materials
 
-Here are links to my CV and SoP: [CV](https://helloelwin.github.io), [SoP for Berkeley](https://helloelwin.github.io). For all programs I only modified the last section of the SoP, keeping the rest unchanged. My recommendation letters are from three professors I worked closely with. I guess they (or at least their PhD students) knew me well.
+Here are links to my CV and one of my SoPs: [CV](https://helloelwin.github.io/files/2025/phd-application-cv.pdf), [SoP](https://helloelwin.github.io/files/2025/sop-berkeley.pdf). For all programs I only modified the last section of the SoP, keeping the rest unchanged. My recommendation letters are from three professors I worked closely with. I guess they (or at least their PhD students) knew me well.
 
 ### School/Faculty selection
 
