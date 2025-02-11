@@ -15,9 +15,9 @@ body { width: 890px; font-size: 1.25rem; font-weight: 350; }
 /* -------------- THEME SWITCHER -------------- */
 html { --bg-secondary: #f8f8f8; --headings: #000; --links: blue; --highlight: #FFECB2; --code-text: #9D174D; --share-text: #999; --head: #000; --bg: #FFF; --text: #3f3736; --quote-text: #6d6d6d; --footer-border: #e0e0e0; --footer-text: #d6d6d6; --nav-discription: #a0a0a0; --post: #f9f9f9; --nav-hover: #000; --nav-hover-bg: #f0f0f0; --block-quote-border: #e6e6e6; --block-quote-background: #efefef; --nav-text: #666666; --date: #aeaeae; --a: #68ADCA; --a-hover-underline: #dedede; --a-hover-bg: #efefef; }
 
-html[data-theme="dark"] html, html[data-theme="dark"] body { --headings: #74c0fc; --links: #91A7FF; --highlight: #41C7C7; --bg-secondary: #323945; --code-text: #91A7FF; --share-text: #C4C4C4; --head: #FFF; --bg: #111; --text: #cfcfcf; --quote-text: #a0a0a0; --footer-border: #3f3f3f; --footer-text: #4a4a4a; --nav-discription: #afafaf; --post: #1d1d1d; --nav-hover: #fff; --nav-hover-bg: #323232; --block-quote-border: #4a4a4a; --block-quote-background: #2e2e2e; --nav-text: #999999; --data: #595959; --a: #95c5da; --a-hover-underline: #3f3f3f; --a-hover-bg: #313131; }
+html[data-theme="dark"] html, html[data-theme="dark"] body { --headings: #74c0fc; --links: #91A7FF; --highlight: #41C7C7; --bg-secondary: #323945; --code-text: #91A7FF; --share-text: #C4C4C4; --head: #FFF; --bg: #111; --text: #cfcfcf; --quote-text: #a0a0a0; --footer-border: #3f3f3f; --footer-text: #4a4a4a; --nav-discription: #afafaf; --post: #1d1d1d; --nav-hover: #fff; --nav-hover-bg: #323232; --block-quote-border: #4a4a4a; --block-quote-background: #2e2e2e; --nav-text: #999999; --date: #595959; --a: #95c5da; --a-hover-underline: #3f3f3f; --a-hover-bg: #313131; }
 
-@media (prefers-color-scheme: dark) { body[data-theme="auto"] html, body[data-theme="auto"] body { --headings: #74c0fc; --links: #91A7FF; --highlight: #41C7C7; --bg-secondary: #323945; --code-text: #91A7FF; --share-text: #C4C4C4; --head: #FFF; --bg: #111; --text: #cfcfcf; --quote-text: #a0a0a0; --footer-border: #3f3f3f; --footer-text: #4a4a4a; --nav-discription: #afafaf; --post: #1d1d1d; --nav-hover: #fff; --nav-hover-bg: #323232; --block-quote-border: #4a4a4a; --block-quote-background: #2e2e2e; --nav-text: #999999; --data: #595959; --a: #95c5da; --a-hover-underline: #3f3f3f; --a-hover-bg: #313131; } }
+@media (prefers-color-scheme: dark) { body[data-theme="auto"] html, body[data-theme="auto"] body { --headings: #74c0fc; --links: #91A7FF; --highlight: #41C7C7; --bg-secondary: #323945; --code-text: #91A7FF; --share-text: #C4C4C4; --head: #FFF; --bg: #111; --text: #cfcfcf; --quote-text: #a0a0a0; --footer-border: #3f3f3f; --footer-text: #4a4a4a; --nav-discription: #afafaf; --post: #1d1d1d; --nav-hover: #fff; --nav-hover-bg: #323232; --block-quote-border: #4a4a4a; --block-quote-background: #2e2e2e; --nav-text: #999999; --date: #595959; --a: #95c5da; --a-hover-underline: #3f3f3f; --a-hover-bg: #313131; } }
 
 /* -------------------------------------------- */
 /* Dark Mode Button */
@@ -85,6 +85,12 @@ blockquote { font-family: 'EB Garamond', 'Sans-Serif'; color: var(--quote-text);
 blockquote p { color: var(--quote-text); }
 
 li { padding-bottom: 0.5em; }
+
+table { width: 100%; border-collapse: collapse; }
+
+table, th, td { border: 1px solid var(--nav-discription); }
+
+th, td { padding: 8px; text-align: left; }
 
 /* Category 区 */
 ul.posts { padding: 0px; margin-top: 1em; margin-bottom: 0px; }
