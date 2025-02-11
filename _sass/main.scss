@@ -111,7 +111,7 @@ html {
 	  --block-quote-border: #4a4a4a;
 	  --block-quote-background: #2e2e2e;
 	  --nav-text: #999999;
-	  --data: #595959; // not sure what this is	
+	  --date: #595959; // not sure what this is	
 	  --a: #95c5da;
 	  --a-hover-underline: #3f3f3f;
 	  --a-hover-bg: #313131;
@@ -339,6 +339,19 @@ blockquote p {
 li {
 	padding-bottom: 0.5em;
 }
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+  }
+table, th, td {
+	border: 1px solid var(--nav-discription);
+}
+th, td {
+	padding: 8px;
+	text-align: left;
+}
+
 
 /* Category 区 */
 
