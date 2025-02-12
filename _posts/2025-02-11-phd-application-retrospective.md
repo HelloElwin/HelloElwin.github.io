@@ -14,7 +14,7 @@ What I will cover in this post:
     - Materials
     - School/Faculty selection
     - Interviews and offers
-- Recommendations
+- Advice
     - How to prepare application materials
     - How to prepare for interviews
 
@@ -68,7 +68,7 @@ I got the following interviews. I found professors who didn't limit interview ti
 | Jan 25                   | Stanford  | 20min                |
 | Jan 28                   | NYU       | Unlimited            |
 
-## Recommendations
+## Advice
 
 ### How to prepare application materials
 
